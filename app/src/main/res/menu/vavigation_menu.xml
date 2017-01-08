@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Home"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/menu_setting"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Setting"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/menu_friends"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Friends"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/menu_me"
+            android:icon="@mipmap/ic_launcher"
+            android:title="AboutMe"
+            android:checkable="true"/>
+    </group>
+    <item android:title="Sub Items">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_launcher"
+                android:title="Items1"
+                android:checkable="true"/>
+            <item
+                android:icon="@mipmap/ic_launcher"
+                android:title="Items2"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+
+</menu>
